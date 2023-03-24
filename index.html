@@ -1,15 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+    <div class="background">
+        <!-- <img src="images/cupcake.jpg" /> --> <!-- Background image -->
+        <div class="logo">
+            <img src="images/chef-hat.png" /> <!-- Want this to be transparent -->
+            <h1>DIY-licious</h1>
+        </div>
+        <p>Photo by <a href="https://unsplash.com/@biglaughkitchen">No Revisions</a> on <a
+                href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+    </div>
     <form>
-        
+        <div class="info">
+            <p class="pitch">
+                This is not a real online service! Do you want to
+                make your delicious dreams come true?
+                Do you want to join an ever-growing community of
+                like-minded amateur bakers? Sign up <em>now</em>
+                to get your first recipe kit! Use code NEWBIE for
+                15% off your first purchase!
+            </p>
+            <p class="tagline">
+                Yum!
+            </p>
+        </div>
+        <div class="main-form">
+            <h2>Let's do this!</h2>
+
+            <div class="first-name">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" />
+            </div>
+
+            <div class="last-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" />
+            </div>
+
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="phone">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+            </div>
+
+            <div class="confirm">
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" id="confirm" name="confirm" />
+            </div>
+        </div>
+        <div class="account">
+            <button type="submit">Create Account</button>
+
+            <p>Already have an account? <a href="">Log In</a></p>
+        </div>
     </form>
 </body>
+
 </html>

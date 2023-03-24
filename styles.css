@@ -1,3 +1,7 @@
-div {
-    color: blue;
+body {
+    display: flex;
+}
+
+div.background {
+    background-image: url("images/cupcake.png");
 }
